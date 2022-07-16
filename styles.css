@@ -74,7 +74,7 @@ body {background-color: #a39c90
 }
 .container {
   display: flex;
-  padding: 30px
+  padding: 30px;
   flex: 1;
   justify-content: center;
 }
@@ -92,7 +92,7 @@ body {background-color: #a39c90
 .order
 body {background-color: #999966}
 article {}
-article h1 {
+article h2 {
   font-size: 40px;
   font-family: arial;
   font-style: italic;
