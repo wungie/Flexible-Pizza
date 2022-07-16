@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a239c4b661.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href=""><h2>Home</h2></a></li>|
+          <li class="nav-item"><a href="menu.html"><h2>Menu</h2></a></li>|
+          <li class="nav-item"><a href="order.html"><h2>Order Online</h2></a></li>|
+          <li class="nav-item"><a href=""><h2>Our Location</h2></a></li>|
+          <li class="nav-item"><a href=""><h2>About Us</h2></a></li>
+        </ul>
+      </nav>
+    </header>
+    <article class="order">
+      <div class="container">
+        <form method="get" action="thankyou.html">
+          <fieldset class="form">
+            <legend>Order</legend>
+            <label for="fname">
+              Name:
+              <input autofocus type="text" name="fname" id = "fname" required placeholder="First Name"/>
+            </label>
+            <br>
+            <br>
+            <label for="phone">
+              Phone:
+              <input type="tel" name="phone" id="phone" required placeholder="Phone"/>
+            </label>
+            <br>
+            <br>
+            <label for="pizza">Choose A Pizza</label>
+            <select name="pizza" id="pizza">
+              <option value="pizza1">Pan Pizza</option>
+              <option value="pizza2">Pepperoni Pizza</option>
+              <option value="pizza3">Mushroom Pizza</option>
+              <option value="pizza4">Casserole Pizza</option>
+              <option value="pizza5">Healthy Cheese Pizza</option>
+              <option value="pizza6">Tomato Pizza</option>
+            </select>
+            <br>
+            <br>
+            <label for="#">Quantity</label>
+            <select name="#" id="#">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+           </fieldset>
+          <input class="submit" type="submit" value="Submit" />
+      </form>
+        <div class="sidebar">
+          <div class="review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p>This place has some very good pizza, maybe even the best in the whole wide world.</p>
+            <p>- A Loyal Customer</p>
+          </div>
+        </div>
+        <div class="follow">
+        </div>
+      </div>
+
+    </article>
+  </body>
